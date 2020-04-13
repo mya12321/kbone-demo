@@ -55,17 +55,14 @@ npm run build:mp
 │  ├─ mp                     // 小程序端目标代码目录，使用微信开发者工具打开，用于生产环境
 │  └─ web                    // web 端编译出的文件，用于生产环境
 ├─ src
-│  ├─ common                 // 通用组件
+│  ├─ images                 // 图片资源
 │  ├─ mp                     // 小程序端入口目录
-│  │  ├─ home                // 小程序端 home 页面
-│  │  │  └─ main.mp.js       // 小程序端入口文件
-│  │  └─ other               // 小程序端 other 页面
-│  │     └─ main.mp.js       // 小程序端入口文件
-│  ├─ detail                 // detail 页面
-│  ├─ home                   // home 页面
-│  ├─ list                   // list 页面
+│  │  └─ main.mp.js          // 小程序端入口文件
 │  ├─ router                 // vue-router 路由定义
 │  ├─ store                  // vuex 相关目录
+│  ├─ view                   // 所有页面
+│  │  ├─ components          // 组件页面
+│  │  └─ homepage            // home 页面
 │  ├─ App.vue                // Web 端入口主视图
 │  └─ main.js                // Web 端入口文件
 └─ index.html                // Web 端入口模板

@@ -3,12 +3,12 @@
  */
 
 module.exports = {
-    origin: 'https://test.miniprogram.com',
+    origin: 'https://mya12321.github.io',
     entry: '/',
     router: {
         home: [
             '/(home|index)?',
-            '/index.html'
+            '/:type'
         ],
     },
     redirect: {

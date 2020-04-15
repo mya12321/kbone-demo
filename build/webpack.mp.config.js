@@ -178,7 +178,7 @@ module.exports = {
           options: {
             limit: 1024,
             name: '[name]_[hash:hex:6].[ext]',
-            publicPath: 'https://test.miniprogram.com/res', // 对于资源文件直接使用线上的 cdn 地址
+            publicPath: mpPluginConfig.origin + '/res', // 对于资源文件直接使用线上的 cdn 地址
             emitFile: false,
           }
         }],
